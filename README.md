@@ -9,9 +9,10 @@
 1. [Introduction](#introduction)  
 2. [Project Goals & Scope](#project-goals--scope)  
 3. [Task Breakdown](#task-breakdown)  
-4. [Network Architecture](#network-architecture)  
-5. [Key Benefits](#key-benefits)  
-6. [Challenges & Lessons Learned](#challenges--lessons-learned)  
+4. [Network Architecture](#network-architecture)
+5. [Topology](#topology)
+6. [Key Benefits](#key-benefits)  
+7. [Challenges & Lessons Learned](#challenges--lessons-learned)  
 
 ---
 
@@ -70,6 +71,11 @@ We adopted a **two‑tier hierarchical** design with a **partial‑mesh** betwee
   - Four lab routers & two video‑room subnets, each connected via Layer‑2 switches and APs.  
 - **Partial‑Mesh Links**  
   - Direct router interconnections for fault tolerance, load balancing, and minimal hops.
+
+---
+
+## Topology
+![Final topology](https://github.com/user-attachments/assets/ecc7949b-c39f-45a7-87e3-c7d4a82f3016)
 
 ---
 
